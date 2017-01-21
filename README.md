@@ -9,7 +9,7 @@ A React Native module that allows you to customize switch (style, form and anima
 
 ### Installation
 ```bash
-npm install react-native-customisable-switch
+npm install --save react-native-customisable-switch
 ```
 
 ### Examples
