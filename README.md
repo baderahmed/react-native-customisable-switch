@@ -10,11 +10,13 @@ A React Native module that allows you to customize switch (style, form and anima
 ### Installation
 ```bash
 npm install react-native-customisable-switch
+```
 
 ### Examples
 <p align="center">
-    <img src ="./examples.gif" />
+    <img src="./examples.gif" />
 </p>
+
 ```javascript
 import React, { Component } from 'react';
 import {
@@ -119,7 +121,7 @@ const styles = StyleSheet.create({
 **buttonWidth** (Number): 25 //Switch button width
 **buttonHeight** (Number): 25 //Switch button height
 **buttonBorderRadius** (Number): 15 // Switch button border radius
-**buttonBorderColor** (String): 'rgba(0, 0, 0, 1)' // Switch button border color
+**buttonBorderColor** (String): "rgba(0, 0, 0, 1)" // Switch button border color
 **buttonBorderWidth** (Number): 0 //Switch button border width
 **animationTime** (Number): 150 // Animation duration
 **padding** (Boolean): true // Switch horizontal padding
