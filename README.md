@@ -102,29 +102,29 @@ const styles = StyleSheet.create({
 )};
 ```
 ### Properties
-**defaultValue** (Boolean): false //Default switch value
+**defaultValue** (Boolean): false //Default switch value<br />
 **onChangeValue** (Function): () => null //Sends the current value of switch
-**activeText** (String): "On" //Text when switch is activated
-**inactiveText** (String): "Off" //Text when switch is inactivated
-**fontSize** (Number): 16 //Size of text
-**activeTextColor** (String): "rgba(255, 255, 255, 1)" //Color of activated switch text
-**inactiveTextColor** (String): "rgba(255, 255, 255, 1)" //Color of inactivated switch text
-**activeBackgroundColor** (String): "rgba(50, 163, 50, 1)" //Background color of activated switch
-**inactiveBackgroundColor** (String): "rgba(137, 137, 137, 1)" //Background color of inactivated switch
-**activeButtonBackgroundColor** (String): "rgba(255, 255, 255, 1)"  //Color of activated switch button
-**inactiveButtonBackgroundColor** (String): "rgba(255, 255, 255, 1)"  //Color of inactivated switch button
-**switchWidth** (Number): 70 // Switch width
-**switchHeight** (Number): 30 // Switch height
-**switchBorderRadius** (Number): 15 // Switch border radius 
-**switchBorderColor** (String): 'rgba(0, 0, 0, 1)' // Switch border color 
-**switchBorderWidth** (Number): 0 //Switch border width 
-**buttonWidth** (Number): 25 //Switch button width
-**buttonHeight** (Number): 25 //Switch button height
-**buttonBorderRadius** (Number): 15 // Switch button border radius
-**buttonBorderColor** (String): "rgba(0, 0, 0, 1)" // Switch button border color
-**buttonBorderWidth** (Number): 0 //Switch button border width
-**animationTime** (Number): 150 // Animation duration
-**padding** (Boolean): true // Switch horizontal padding
+**activeText** (String): "On" //Text when switch is activated<br />
+**inactiveText** (String): "Off" //Text when switch is inactivated<br />
+**fontSize** (Number): 16 //Size of text<br />
+**activeTextColor** (String): "rgba(255, 255, 255, 1)" //Color of activated switch text<br />
+**inactiveTextColor** (String): "rgba(255, 255, 255, 1)" //Color of inactivated switch text<br />
+**activeBackgroundColor** (String): "rgba(50, 163, 50, 1)" //Background color of activated switch<br />
+**inactiveBackgroundColor** (String): "rgba(137, 137, 137, 1)" //Background color of inactivated switch<br />
+**activeButtonBackgroundColor** (String): "rgba(255, 255, 255, 1)"  //Color of activated switch button<br />
+**inactiveButtonBackgroundColor** (String): "rgba(255, 255, 255, 1)"  //Color of inactivated switch button<br />
+**switchWidth** (Number): 70 // Switch width<br />
+**switchHeight** (Number): 30 // Switch height<br />
+**switchBorderRadius** (Number): 15 // Switch border radius<br /> 
+**switchBorderColor** (String): 'rgba(0, 0, 0, 1)' // Switch border color<br /> 
+**switchBorderWidth** (Number): 0 //Switch border width<br /> 
+**buttonWidth** (Number): 25 //Switch button width<br />
+**buttonHeight** (Number): 25 //Switch button height<br />
+**buttonBorderRadius** (Number): 15 // Switch button border radius<br />
+**buttonBorderColor** (String): "rgba(0, 0, 0, 1)" // Switch button border color<br />
+**buttonBorderWidth** (Number): 0 //Switch button border width<br />
+**animationTime** (Number): 150 // Animation duration<br />
+**padding** (Boolean): true // Switch horizontal padding<br />
 
 ### Questions
 Create an issue (https://github.com/baderahmed/react-native-customisable-switch/issues)
