@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
 * **buttonBorderColor** (String): "rgba(0, 0, 0, 1)" // Switch button border color<br />
 * **buttonBorderWidth** (Number): 0 //Switch button border width<br />
 * **animationTime** (Number): 150 // Animation duration<br />
-* **padding* ** (Boolean): true // Switch horizontal padding<br />
+* **padding** (Boolean): true // Switch horizontal padding<br />
 
 ### Questions
 Create an issue (https://github.com/baderahmed/react-native-customisable-switch/issues)
