@@ -1,0 +1,30 @@
+{
+  "name": "react-native-customisable-switch",
+  "version": "0.1.0",
+  "description": "A React Native module that allows you to customize switch (style, form and animation), availble for android and IOS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baderahmed/react-native-customisable-switch.git#commit-ish"
+  },
+  "keywords": [
+    "react-native",
+    "switch",
+    "android",
+    "ios",
+    "disign",
+    "form",
+    "color",
+    "backgroundColor",
+    "size"
+  ],
+  "author": "Bader Ahmed Tellili <tlilibader@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baderahmed/react-native-customisable-switch/issues"
+  },
+  "homepage": "https://github.com/baderahmed/react-native-customisable-switch/tree/commit-ish#readme"
+}
