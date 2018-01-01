@@ -32,7 +32,7 @@ export default class Switch extends Component {
     buttonBorderColor: PropTypes.string,
     buttonBorderWidth: PropTypes.number,
     animationTime: PropTypes.number,
-    padding: React.PropTypes.oneOf([React.PropTypes.number, React.PropTypes.bool]),
+    padding: React.PropTypes.oneOfType([React.PropTypes.number, React.PropTypes.bool]),
   };
 
   static defaultProps = {
