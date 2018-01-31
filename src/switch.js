@@ -1,10 +1,12 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   Text,
   TouchableWithoutFeedback,
   View,
   Animated,
 } from 'react-native';
+import PropTypes from 'prop-types';
+
 
 import styles from './styles.js';
 
