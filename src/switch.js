@@ -6,8 +6,6 @@ import {
   Animated,
 } from 'react-native';
 import PropTypes from 'prop-types';
-
-
 import styles from './styles.js';
 
 export default class Switch extends Component {
@@ -35,6 +33,10 @@ export default class Switch extends Component {
     buttonBorderWidth: PropTypes.number,
     animationTime: PropTypes.number,
     padding: React.PropTypes.oneOfType([React.PropTypes.number, React.PropTypes.bool]),
+    shadowColor: PropTypes.string,
+    shadowOffset: PropTypes.object,
+    shadowRadius: PropTypes.number,
+    shadowOpacity: PropTypes.number,
   };
 
   static defaultProps = {
@@ -61,6 +63,10 @@ export default class Switch extends Component {
     buttonBorderWidth: 0,
     animationTime: 150,
     padding: 5,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 0},
+    shadowRadius: 0,
+    shadowOpacity: 1,
   }
 
   constructor(props, context) {
@@ -127,6 +133,10 @@ render() {
       buttonBorderRadius,
       buttonBorderColor,
       buttonBorderWidth,
+      shadowColor,
+      shadowOffset,
+      shadowRadius,
+      shadowOpacity,
     } = this.props;
 
     const backgroundColorValue = backgroundColor.interpolate({
@@ -200,6 +210,10 @@ render() {
               position: 'absolute',
               top: (containerHeight - buttonHeight)/2,
               left: transformValue,
+              shadowColor: shadowColor,
+              shadowOpacity: shadowOpacity,
+              shadowOffset: shadowOffset,
+              shadowRadius: shadowRadius
             }}
           />
         </View>
