@@ -32,7 +32,7 @@ export default class Switch extends Component {
     buttonBorderColor: PropTypes.string,
     buttonBorderWidth: PropTypes.number,
     animationTime: PropTypes.number,
-    padding: PropTypes.bool,
+    padding: React.PropTypes.oneOfType([React.PropTypes.number, React.PropTypes.bool]),
   };
 
   static defaultProps = {
@@ -58,12 +58,13 @@ export default class Switch extends Component {
     buttonBorderColor: 'rgba(0, 0, 0, 1)',
     buttonBorderWidth: 0,
     animationTime: 150,
-    padding: true,
+    padding: 5,
   }
 
   constructor(props, context) {
     super(props, context);
-    this.padding = props.padding ? 5 : 0;
+    // Backwards compatibility: `padding` used to be bool, where `true = 5`
+    this.padding = props.padding === true ? 5 : (props.padding || 0);
     this.transformValue = (props.switchWidth - props.buttonWidth - this.padding);
     this.state = {
       transformValue: new Animated.Value(props.value ? this.transformValue : this.padding),
