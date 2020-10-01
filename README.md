@@ -1,4 +1,4 @@
-# react-native-customisable-switch
+# react-native-customisable-switch An amazing project
 A React Native module that allows you to customize switch (style, form and animation), available for android and IOS.
 
 ### Content
